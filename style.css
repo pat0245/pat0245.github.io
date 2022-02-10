@@ -1,0 +1,21 @@
+.title {
+  font-size: 4rem;
+  font-family: sans-serif;
+  margin-top: 9rem;
+  margin-left: 2rem;
+}
+.text {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+.headlink {
+}
+.link {
+  font-size: 2rem;
+}
+.bigtext {
+  font-family: sans-serif;
+  font-size: 3rem;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
