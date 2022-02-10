@@ -8,8 +8,6 @@
   margin-left: 2rem;
   font-size: 2rem;
 }
-.headlink {
-}
 .link {
   font-size: 2rem;
 }
@@ -18,4 +16,9 @@
   font-size: 3rem;
   margin-left: 2rem;
   margin-top: 5rem;
+}
+.list {
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin-left: 2rem;
 }
