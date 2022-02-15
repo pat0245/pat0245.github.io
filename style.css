@@ -1,20 +1,49 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+}
+main {
+  padding-top: 7rem;
+}
 .title {
   font-size: 4rem;
   font-family: sans-serif;
-  margin-top: 9rem;
-  margin-left: 2rem;
 }
 .text {
-  margin-left: 2rem;
   font-size: 2rem;
 }
+
+nav {
+  display: flex;
+  position: fixed;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 600px;
+  justify-content: space-around;
+}
+
 .headlink {
   background-color: rgb(168, 166, 166);
   color: rgb(245, 245, 245);
   font-size: 3rem;
-  margin-left: 2rem;
   padding: 1rem 2rem 1rem 1rem;
   border-radius: 1rem;
+  text-decoration: none;
+}
+
+.bloglist {
+  font-size: 2rem;
+  background-color: rgb(163, 176, 190);
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
+}
+
+.Slink {
+  font-size: 2rem;
   text-decoration: none;
 }
 
@@ -24,11 +53,8 @@
 .bigtext {
   font-family: sans-serif;
   font-size: 3rem;
-  margin-left: 2rem;
-  margin-top: 5rem;
 }
 .list {
   font-family: sans-serif;
   font-size: 2rem;
-  margin-left: 2rem;
 }
