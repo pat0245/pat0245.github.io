@@ -49,6 +49,32 @@ nav {
   padding: 1rem 1rem;
   text-decoration: none;
 }
+.blog-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2.5rem;
+  background-color: rgba(160, 160, 160, 0.116);
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+  border: solid 2px transparent;
+  transition: all 0.2s ease-in-out;
+}
+.blog-link * {
+  color: black;
+}
+.blog-link p {
+  opacity: 0.6;
+  margin: 0;
+}
+.blog-link h5 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.blog-link:hover {
+  transform: rotate(-2.5deg) scale(1.1);
+  border: solid 2px rgba(245, 245, 255, 0.719);
+}
 
 .Slink {
   display: inline-block;
