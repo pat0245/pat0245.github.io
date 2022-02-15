@@ -42,13 +42,24 @@ nav {
   transform: rotate(5deg) scale(1.1);
 }
 .bloglist {
+  display: inline-block;
   font-size: 2rem;
   background-color: rgb(163, 176, 190);
   color: rgb(0, 0, 0);
   border-radius: 1rem;
   padding: 1rem 1rem;
   text-decoration: none;
+  box-shadow: 0 4px 12px 0 rgba(79, 86, 104, 0.342);
 }
+
+.bloglist:hover {
+  background-color: rgb(156, 148, 148);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 6px 12px 2px rgba(63, 64, 66, 0.486);
+  transform: rotate(-5deg) scale(1.1);
+  box-shadow: 0 4px 12px 0 rgba(54, 59, 71, 0.342);
+}
+
 .blog-link {
   display: inline-block;
   text-decoration: none;
@@ -58,6 +69,7 @@ nav {
   padding: 1rem 1.2rem;
   border: solid 2px transparent;
   transition: all 0.2s ease-in-out;
+  transform-origin: left;
 }
 .blog-link * {
   color: black;
