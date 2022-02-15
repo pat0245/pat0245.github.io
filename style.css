@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
   position: relative;
+  padding-bottom: 20vh;
 }
 main {
   padding-top: 7rem;
@@ -25,14 +26,21 @@ nav {
 }
 
 .headlink {
+  transition: all 0.2s ease-in-out;
   background-color: rgb(168, 166, 166);
   color: rgb(245, 245, 245);
   font-size: 3rem;
   padding: 1rem 2rem 1rem 1rem;
   border-radius: 1rem;
   text-decoration: none;
+  box-shadow: 0 4px 12px 0 rgba(79, 86, 104, 0.342);
 }
-
+.headlink:hover {
+  background-color: rgb(75, 72, 72);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 6px 12px 2px rgba(63, 64, 66, 0.486);
+  transform: rotate(5deg) scale(1.1);
+}
 .bloglist {
   font-size: 2rem;
   background-color: rgb(163, 176, 190);
@@ -43,13 +51,26 @@ nav {
 }
 
 .Slink {
+  display: inline-block;
   font-size: 2rem;
   text-decoration: none;
+  transition: all 1s ease-in-out;
+  transform-origin: center;
+}
+.Slink:hover {
+  transform: rotate(-725deg) scale(1.3);
 }
 
 .link {
+  display: block;
   font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+  transform-origin: left;
 }
+.link:hover {
+  transform: rotate(-2deg) scale(1.1);
+}
+
 .bigtext {
   font-family: sans-serif;
   font-size: 3rem;
