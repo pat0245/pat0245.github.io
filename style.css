@@ -5,13 +5,16 @@ body {
   position: relative;
   padding-bottom: 20vh;
 }
+
 main {
   padding-top: 7rem;
 }
+
 .title {
   font-size: 4rem;
   font-family: sans-serif;
 }
+
 .text {
   font-size: 2rem;
 }
@@ -23,6 +26,30 @@ nav {
   width: 100%;
   max-width: 600px;
   justify-content: space-around;
+}
+
+h4 {
+  display: flex;
+  position: fixed;
+  margin-top: 110%;
+  margin-left: 80%;
+}
+
+.page_switch_right {
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: rgb(192, 169, 223);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px 0 rgba(79, 86, 104, 0.342);
+}
+.page_switch_right:hover {
+  background-color: blueviolet;
+  transition: all 0.2s ease-in-out;
+  transform: rotate(5deg) scale(1.1);
+  box-shadow: 0 6px 12px 2px rgba(63, 64, 66, 0.486);
 }
 
 .headlink {
@@ -41,6 +68,7 @@ nav {
   box-shadow: 0 6px 12px 2px rgba(63, 64, 66, 0.486);
   transform: rotate(5deg) scale(1.1);
 }
+
 .bloglist {
   display: inline-block;
   font-size: 2rem;
@@ -51,7 +79,6 @@ nav {
   text-decoration: none;
   box-shadow: 0 4px 12px 0 rgba(79, 86, 104, 0.342);
 }
-
 .bloglist:hover {
   background-color: rgb(156, 148, 148);
   transition: all 0.2s ease-in-out;
@@ -113,6 +140,7 @@ nav {
   font-family: sans-serif;
   font-size: 3rem;
 }
+
 .list {
   font-family: sans-serif;
   font-size: 2rem;
