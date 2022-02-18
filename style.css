@@ -29,10 +29,12 @@ nav {
 }
 
 h4 {
+  max-width: 600px;
   display: flex;
   position: fixed;
   margin-top: 110%;
-  margin-left: 80%;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .page_switch_right {
@@ -44,8 +46,28 @@ h4 {
   color: white;
   transition: all 0.2s ease-in-out;
   box-shadow: 0 4px 12px 0 rgba(79, 86, 104, 0.342);
+  margin-left: 30rem;
+  opacity: 0.5;
 }
 .page_switch_right:hover {
+  background-color: blueviolet;
+  transition: all 0.2s ease-in-out;
+  transform: rotate(5deg) scale(1.1);
+  box-shadow: 0 6px 12px 2px rgba(63, 64, 66, 0.486);
+}
+.page_switch_left {
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: rgb(192, 169, 223);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px 0 rgba(79, 86, 104, 0.342);
+  margin-right: 20rem;
+  opacity: 0.5;
+}
+.page_switch_left:hover {
   background-color: blueviolet;
   transition: all 0.2s ease-in-out;
   transform: rotate(5deg) scale(1.1);
