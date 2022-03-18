@@ -1,0 +1,17 @@
+.container {
+  min-width: 100%;
+  padding: 0 1rem;
+  position: relative;
+  padding-bottom: 20vh;
+}
+
+.linkList {
+  display: block;
+  text-decoration: underline;
+  color: blue;
+  transition: all 0.2s ease-in-out;
+  transform-origin: left;
+}
+.linkList:hover {
+  transform: rotate(-2deg) scale(1.1);
+}
