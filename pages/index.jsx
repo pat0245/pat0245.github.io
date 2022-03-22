@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <h1>Special Thanks!</h1>
         <p>to the person who thought me how to programm and indpired this website:</p>
-        <a href="https/valwal.com">Valentin Walter</a>
+        <a href="https:/valwal.com">Valentin Walter</a>
       </Container>
     </>
   );
