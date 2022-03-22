@@ -27,7 +27,7 @@ p {
 }
 
 nav {
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   position: fixed;
   top: 0;
@@ -39,11 +39,14 @@ nav {
   justify-content: space-around;
 }
 nav a {
-  background-color: beige;
+  background-color: rgb(173, 196, 238);
   border-radius: 12px;
   padding: 0.5rem 1rem;
   transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px 0 rgba(79, 86, 184, 0.342);
+
 }
 nav a:hover {
   transform: rotate(4deg) scale(1.1);
+  box-shadow: 0 6px 12px 2px rgba(63, 64, 64, 0.486);
 }
