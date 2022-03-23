@@ -26,15 +26,15 @@ export default function Home() {
           </li>
         </ul>
         <h1>Blog</h1>
-        <p>in this block I will tell you something about my life and stuff.</p>
+        <p>in this blog I will tell you something about my life and stuff.</p>
         <div className={styles.box}>
           <a href="#">
-            <Box title="More about me" body="I was born..." />
+            <Box title="More about me" body="My first blog where I tell you something about me" />
           </a>
         </div>
         <h1>Special Thanks!</h1>
         <p>to the person who thought me how to programm and indpired this website:</p>
-        <a href="https:/valwal.com">Valentin Walter</a>
+        <a href="https:/valwal.com" className={styles.specialLink}>Valentin Walter</a>
       </Container>
     </>
   );

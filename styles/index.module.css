@@ -15,3 +15,11 @@
 .linkList:hover {
   transform: rotate(-2deg) scale(1.1);
 }
+.specialLink {
+  display: block;
+  transform-origin: left;
+  transition: all 0.6s ease-in-out;
+}
+.specialLink:hover {
+  transform: rotate(-2deg) scale(1.1);
+}
