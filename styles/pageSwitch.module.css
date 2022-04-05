@@ -12,8 +12,8 @@
   box-shadow: 0 6px 12px 2px rgba(63 64 66 0.486);
 }
 
-.switchContainer {  
-    max-width: 50ch;
+.switchContainer {
+  max-width: 50ch;
   padding: 2rem 1rem;
   margin: 0 auto;
   display: flex;

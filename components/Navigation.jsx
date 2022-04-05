@@ -1,4 +1,4 @@
-import Link from "next/Link"
+import Link from "next/Link";
 
 export default function Navigation() {
   return (

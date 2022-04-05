@@ -8,14 +8,12 @@ export default function books() {
     <>
       <Head>
         <title>Pat | Booklist</title>
-        <meta name="description" content="Patrick Maier's website" />
+        <meta name="description" content="Patrick Maier&apos;s website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navigation />
-      <Container className={styles.container}>
-
-      </Container>
+      <Container className={styles.container}></Container>
     </>
   );
 }

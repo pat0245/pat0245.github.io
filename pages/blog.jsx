@@ -9,7 +9,7 @@ export default function Blog() {
     <>
       <Head>
         <title>Pat | About</title>
-        <meta name="description" content="Patrick Maier's website" />
+        <meta name="description" content="Patrick Maier&apos;s website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
