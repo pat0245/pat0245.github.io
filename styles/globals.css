@@ -44,7 +44,6 @@ nav a {
   padding: 0.5rem 1rem;
   transition: all 0.2s ease-in-out;
   box-shadow: 0 4px 12px 0 rgba(79, 86, 184, 0.342);
-
 }
 nav a:hover {
   transform: rotate(4deg) scale(1.1);
