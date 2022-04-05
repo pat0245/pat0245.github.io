@@ -4,7 +4,7 @@ import Head from "next/head";
 import styles from "../styles/blog.module.css";
 import Box from "../components/Box";
 
-export default function About() {
+export default function Blog() {
   return (
     <>
       <Head>
@@ -16,12 +16,13 @@ export default function About() {
       <Navigation />
       <Container classname={styles.container}>
         <h1>Blog</h1>
-        
-          <a href="#">
-            <Box title="test" body="test" />
-            <Box title="test2" body="test2" />
-          </a>
-        
+
+        <a href="#">
+          <Box color="lightblue" title="test" body="test" />
+        </a>
+        <a href="#">
+          <Box color="lightblue" title="test2" body="test2" />
+        </a>
       </Container>
     </>
   );
