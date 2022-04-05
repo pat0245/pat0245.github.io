@@ -18,7 +18,7 @@ export default function Home() {
 
       <Container className={styles.container}>
         <h1>Hello</h1>
-        <p>and welcome to my website!</p>
+        <p>and welcome to my website!!</p>
         <ul>
           <li>
             <Link href="/about">
