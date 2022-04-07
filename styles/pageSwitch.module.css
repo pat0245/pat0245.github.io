@@ -2,6 +2,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 12px 0 rgba(79, 86, 104, 0.342);
   transition: all 0.2s ease-in-out;
+  color: white;
 }
 .box a {
   display: block;

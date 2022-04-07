@@ -9,13 +9,13 @@ export default function movies() {
     <>
       <Head>
         <title>Pat | Movielist</title>
-        <meta name="description" content="Patrick Maier&apos;s website" />
+        <meta name="description" content="Patrick Maier's website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navigation />
       <Container className={styles.container}>
-        <PageSwitch left="Games" right="Books" />
+        <PageSwitch left="Games" right="Books" color="MediumOrchid" />
       </Container>
     </>
   );

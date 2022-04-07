@@ -33,7 +33,7 @@ export default function games() {
         <ul>
           <li>Genshin Impact</li>
         </ul>
-        <PageSwitch right="Movies" />
+        <PageSwitch right="Movies" color="MediumPurple"/>
       </Container>
     </>
   );

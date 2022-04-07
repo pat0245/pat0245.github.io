@@ -4,13 +4,14 @@ import Head from "next/head";
 import styles from "../styles/tv.module.css";
 import Box from "../components/Box";
 import Link from "next/link";
+import PageSwitch from "../components/PageSwitch";
 
 export default function TV() {
   return (
     <>
       <Head>
         <title>Pat | TVlist</title>
-        <meta name="description" content="Patrick Maier&apos;s website" />
+        <meta name="description" content="Patrick Maier's website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -38,6 +39,7 @@ export default function TV() {
             </a>
           </Link>
         </div>
+        <PageSwitch left="Books" color="Olive" />
       </Container>
     </>
   );
