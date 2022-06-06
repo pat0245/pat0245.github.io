@@ -1,0 +1,337 @@
+*::before,
+      *::after {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+      }
+
+      :root {
+        --gap: 0.5rem;
+      }
+
+      /* --- General --- */
+      body {
+        margin: 0;
+        max-width: 100ch;
+        min-height: 100vh;
+        margin-inline: auto;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 4rem;
+      }
+
+      /* --- Header --- */
+      header {
+        padding-top: 4rem;
+        margin-inline: auto;
+        max-width: 50ch;
+        width: 100%;
+        min-width: 300px;
+      }
+
+      header .card {
+        position: relative;
+        color: white;
+        padding-block: 1rem;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+          0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+        background-image: linear-gradient(
+            280deg,
+            hsla(187 99% 68% / 0.6) 0%,
+            hsla(211 96% 41% / 0.4) 43%
+          ),
+          radial-gradient(
+            ellipse at 57% 90%,
+            hsla(218 99% 28% / 0.9) 41%,
+            hsla(218 99% 28% / 0.7) 61%
+          );
+      }
+
+      header .card marquee {
+        position: relative;
+      }
+
+      header .card p::after {
+        content: " day";
+      }
+
+      header .card::before {
+        content: "";
+        background-image: url("https://newcastlebeach.org/images/black-and-white-transparent-clouds-1.png");
+        position: absolute;
+        inset: 0;
+        background-size: 300px auto;
+        background-position: top -4rem right -4rem;
+        background-repeat: no-repeat;
+      }
+
+      header .card::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 12px;
+        z-index: 99;
+        box-shadow: inset 0 0 0 1px hsl(0 0% 0% / 0.2),
+          inset 0 1px 0 1px hsl(0 0% 100% / 0.4);
+      }
+
+      header .card .celestial-body {
+        content: "";
+        background-image: url("https://purepng.com/public/uploads/large/purepng.com-sunsunlightrayssolar-1411527181584egqbj.png");
+        background-size: contain;
+
+        position: absolute;
+        top: -80px;
+        left: -80px;
+        width: 200px;
+        aspect-ratio: 1;
+        z-index: 20;
+      }
+
+      /*  --- Main --- */
+      main {
+        width: 100%;
+        overflow-x: scroll;
+        padding-block-end: 1rem;
+      }
+
+      main .container {
+        min-width: 75ch;
+        display: grid;
+        grid-template-columns: min-content repeat(7, 1fr);
+        grid-template-rows: repeat(24, min-content);
+        gap: calc(0.5 * var(--gap)) var(--gap);
+        counter-reset: workouts;
+      }
+
+      /* --- Footer --- */
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem 4rem;
+        margin-bottom: 4rem;
+      }
+
+      footer::before {
+        content: "";
+        width: 100%;
+        border-top: 2px solid hsl(0 0% 0% / 0.06);
+      }
+
+      footer ul {
+        padding: 0;
+        margin: 0;
+      }
+
+      footer ul > * + * {
+        margin-block-start: var(--gap);
+      }
+
+      footer ul > li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: var(--gap);
+      }
+
+      footer ul > li div {
+        flex-shrink: 0;
+        min-width: 100px;
+      }
+
+      footer ul > li p {
+        margin: 0;
+      }
+
+      footer .summary .slot {
+        justify-content: start;
+        padding-inline-start: 1rem;
+      }
+
+      /* --- Typography --- */
+      h2 {
+        font-size: 1.25rem;
+        text-align: left;
+      }
+
+      .subtitle {
+        font-weight: 500;
+        font-size: 1.25rem;
+        opacity: 0.6;
+      }
+
+      p {
+        line-height: 1.45em;
+      }
+
+      /* --- Utility --- */
+      :where(.window-padding) {
+        padding-inline: 1rem;
+      }
+
+      :where(.secondary) {
+        color: hsl(0 0% 0% / 0.4);
+      }
+
+      /* --- Schedule --- */
+      .day {
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: span 25;
+        counter-reset: blocks;
+      }
+
+      .day .slots {
+        display: contents;
+      }
+
+      .slot {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        height: 2rem;
+        padding-inline: var(--gap);
+        margin-block: auto;
+        counter-increment: slots;
+        overflow: hidden;
+        box-shadow: inset 0 0 0 1px hsl(0 0% 0% / 0.06),
+          inset 0 1px 0 1px hsl(0 0% 100% / 0.3),
+          0 2px 4px 0 hsl(0 0% 0% / 0.06);
+      }
+
+      .slot::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        color: var(--color, hsl(0 0% 20%));
+        background: var(--bg-color, transparent);
+        opacity: var(--opacity, 0.5);
+        z-index: -1;
+      }
+
+      .slot.double {
+        grid-row-end: span 3;
+      }
+      
+
+      /* > Timeline */
+      .timeline {
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: 2 / span 24;
+        counter-reset: slots -1;
+        margin-inline-end: var(--gap);
+      }
+
+      .timeline .time {
+        text-align: right;
+      }
+
+      .timeline .time::after {
+        content: counter(slots) ":00";
+        color: rgba(0, 0, 0, 0.3);
+        font-size: 0.75rem;
+        counter-increment: slots;
+      }
+
+      /* --- Types --- */
+      .slot[data-type="sleep"] {
+        --color: hsl(271 64% 21%);
+        --bg-color: hsl(271 77% 50% / 0.4);
+      }
+
+      .slot[data-type="school"] {
+        --color: hsl(0 0% 20%);
+        --bg-color: gainsboro;
+        --opacity: 1;
+      }
+
+      .slot[data-type="preamble"] {
+        --color: hsl(251 77% 24%);
+        --bg-color: radial-gradient(
+          circle,
+          hsl(172 95% 62% / 0.8) 0%,
+          hsl(200 95% 57% / 0.8) 50%,
+          hsl(086 96% 52% / 0.8) 100%
+        );
+      }
+
+      .slot[data-type="block"] {
+        --color: rgb(65, 10, 58);
+        --bg-color: radial-gradient(
+          circle,
+          rgba(092, 040, 233, 0.8) 0%,
+          rgba(250, 041, 104, 0.8) 50%,
+          rgba(250, 226, 015, 0.8) 100%
+        );
+      }
+
+      .day .slot[data-type="block"]::after {
+        counter-increment: blocks;
+        content: " " counter(blocks);
+      }
+
+      .slot[data-type="meditate"] {
+        --color: hsl(212 69% 19%);
+        --bg-color: rgba(33, 176, 233, 0.4);
+      }
+
+      .slot[data-type="workout"] {
+        --color: hsl(101 69% 19%);
+        --bg-color: hsl(101 53% 51% / 0.4);
+      }
+
+      .day .slot[data-type="workout"]::after {
+        counter-increment: workouts;
+        content: " " counter(workouts);
+      }
+
+      .slot[data-type="none"] {
+        --color: hsl(0 0% 0% / 0);
+        --bg-color: transparent;
+        box-shadow: inset 0 0 0 1px hsl(0 0% 0% / 0);
+      }
+
+      /* --- Dark mode --- */
+      @media (prefers-color-scheme: dark) {
+        header .card {
+          background-image: linear-gradient(
+              280deg,
+              rgba(29, 56, 107, 0.6) 0%,
+              rgba(3, 30, 59, 0.4) 43%
+            ),
+            radial-gradient(
+              ellipse at 57% 90%,
+              rgb(8, 15, 48) 41%,
+              rgb(1, 11, 29) 61%
+            );
+        }
+
+        header .card .celestial-body {
+          background-image: url("https://d1231c29xbpffx.cloudfront.net/store/productimage/46915/image/xlarge-9e223a06494a6c4de86dfccaa58c0335.png");
+          width: 100px;
+          top: -30px;
+          left: -30px;
+        }
+
+        header .card::before {
+          background-image: url("http://cdn131.picsart.com/291585366026211.png");
+          background-size: cover;
+          opacity: 0.6;
+        }
+
+        header .card p::after {
+          content: " night";
+        }
+      }
+   

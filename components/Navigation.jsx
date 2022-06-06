@@ -1,8 +1,15 @@
 import Link from "next/link";
 
-export default function Navigation() {
+import { useState, useEffect } from "react";
+
+export default function Navigation(props) {
+  const [expanded, setExpanded] = useState(props.expanded);
+
+  useEffect(() => {}, [expanded]);
+
   return (
-    <nav className="nav">
+    <nav className="">
+      <button onClick={() => setExpanded(!expanded)}></button>
       <Link href="/">
         <a>Home</a>
       </Link>

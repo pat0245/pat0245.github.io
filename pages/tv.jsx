@@ -1,7 +1,6 @@
 import Container from "../components/Container";
 import Navigation from "../components/Navigation";
 import Head from "next/head";
-import styles from "../styles/tv.module.css";
 import Box from "../components/Box";
 import Link from "next/link";
 import PageSwitch from "../components/PageSwitch";
@@ -17,15 +16,15 @@ export default function TV() {
 
       <Navigation />
 
-      <Container className={styles.container}>
-        <h1>TV</h1>
+      <Container className="p-24">
+        <h1 className="font-bold text-2xl">TV</h1>
         <div>
           <Link href="#">
             <a>
               <Box
                 color="LightCoral"
                 title="Anime"
-                body="I've watched a lot so this will be a long list"
+                body=""
               />
             </a>
           </Link>
@@ -34,7 +33,7 @@ export default function TV() {
               <Box
                 color="LightCoral"
                 title="TV Shows"
-                body="TV shows either animated or not"
+                body=""
               />
             </a>
           </Link>

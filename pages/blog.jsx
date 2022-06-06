@@ -1,9 +1,8 @@
 import Container from "../components/Container";
 import Navigation from "../components/Navigation";
 import Head from "next/head";
-import styles from "../styles/blog.module.css";
 import Box from "../components/Box";
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Blog() {
   return (
@@ -15,11 +14,15 @@ export default function Blog() {
       </Head>
 
       <Navigation />
-      <Container classname={styles.container}>
-        <h1>Blog</h1>
-        <Link href="#">
+      <Container className="p-24">
+        <h1 className="text-xl font-bold">Blog</h1>
+        <Link href="/myFirstBlog">
           <a>
-            <Box color="lightblue" title="test" body="test" />
+            <Box
+              color="lightblue"
+              title="My first blog"
+              body="The first blog where I tell you more about me"
+            />
           </a>
         </Link>
         <Link href="#">

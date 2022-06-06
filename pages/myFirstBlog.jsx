@@ -1,20 +1,24 @@
 import Container from "../components/Container";
 import Navigation from "../components/Navigation";
 import Head from "next/head";
-import PageSwitch from "../components/PageSwitch";
 
-export default function books() {
+
+export default function Blog() {
   return (
     <>
       <Head>
-        <title>Pat | Booklist</title>
+        <title>Pat | </title>
         <meta name="description" content="Patrick Maier's website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navigation />
       <Container className="p-24">
-      <PageSwitch left="Movies" right="TV" color="MediumSlateBlue" />
+        <h1>My first Blog</h1>
+        <p>
+          As told before My name is Patrick Maier and I am currently 17 years
+          old(as I am writing this)
+        </p>
       </Container>
     </>
   );

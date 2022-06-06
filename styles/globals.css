@@ -1,3 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .rotate-scale {
+    @apply hover:rotate-3 hover:scale-110 transition-transform ease-in-out duration-200;
+  }
+}
+
+@layer utilities {
+  .scale-rotate {
+    @apply hover:rotate-2 hover:scale-110 transition-transform ease-in-out duration-200;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mt-20 mx-4
+  }
+}
 html,
 body {
   padding: 0;
@@ -23,7 +44,6 @@ p {
   padding: 0 1rem;
   max-width: 650px;
   margin: 0 auto;
-  margin: 5.5rem auto 0 auto;
 }
 
 nav {
@@ -37,6 +57,7 @@ nav {
   transform: translateX(-50%);
   max-width: 600px;
   justify-content: space-around;
+  z-index: 99;
 }
 nav a {
   background-color: rgb(173, 196, 238);

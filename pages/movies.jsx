@@ -1,7 +1,6 @@
 import Container from "../components/Container";
 import Navigation from "../components/Navigation";
 import Head from "next/head";
-import styles from "../styles/index.module.css";
 import PageSwitch from "../components/PageSwitch";
 
 export default function movies() {
@@ -14,8 +13,8 @@ export default function movies() {
       </Head>
 
       <Navigation />
-      <Container className={styles.container}>
-        <PageSwitch left="Games" right="Books" color="MediumOrchid" />
+      <Container className="p-24">
+      <PageSwitch left="Games" right="Books" color="MediumOrchid" />
       </Container>
     </>
   );
