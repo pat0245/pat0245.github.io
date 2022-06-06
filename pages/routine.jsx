@@ -68,7 +68,7 @@ export default function Routine() {
 
       <Navigation />
 
-      <Container className="pt-24">
+      <Container className="pt-24 items-center">
         <header className="window-padding">
           <div className="card">
             <div className="celestial-body"></div>
