@@ -19,7 +19,7 @@ export default function TV() {
       <Container className="p-24">
         <h1 className="font-bold text-2xl">TV</h1>
         <div>
-          <Link href="#">
+          <Link href="/anime">
             <a>
               <Box
                 color="LightCoral"
@@ -28,7 +28,7 @@ export default function TV() {
               />
             </a>
           </Link>
-          <Link href="#">
+          <Link href="/tvshows">
             <a>
               <Box
                 color="LightCoral"

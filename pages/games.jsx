@@ -20,7 +20,7 @@ export default function games() {
           these games are roughly sorted by rank
         </p>
         <ul>
-          <li className="list-disc">Starwars: Jedi Fallen Order</li>
+          <li className="list-disc">Starwars: Jedi Fallen Order (the only game i have played multiple times)</li>
           <li className="list-disc">Elden Ring</li>
           <li className="list-disc">
             The Legend of Zelde: Breath of the Wild{" "}
