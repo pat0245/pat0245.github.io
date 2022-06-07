@@ -18,7 +18,7 @@ export default function books() {
       <Container className="p-24">
         <p className="font-bold text-xl">Books I&apos;ve read</p>
         <p className="font-serif text-lg">
-          I haven't read a lot but I&apos;m currently trying to change that ;)
+          I haven&apos;t read a lot but I&apos;m currently trying to change that ;)
         </p>
         <Link href="/mangas">
           <a>
@@ -33,7 +33,7 @@ export default function books() {
         <ul className="pb-3 pt-2">
           <li className="list-disc"></li>
         </ul>
-        <p className="font-serif text-sm">On my "want to read list"</p>
+        <p className="font-serif text-sm">On my &quot;want to read list&quot;</p>
         <ul className="pb-6 pt-2">
           <li className="list-disc">The Witcher</li>
         </ul>

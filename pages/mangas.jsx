@@ -34,7 +34,7 @@ export default function mangas() {
           <li className="list-disc">Tokyo Revengers</li>
           <li className="list-disc">Solo Leveling</li>
         </ul>
-        <p className="font-serif text-sm">On my "want to read list"</p>
+        <p className="font-serif text-sm">On my &quot;want to read list&quot;</p>
         <ul className="pb-6 pt-2">
           <li className="list-disc">Jujutsu Kaisen</li>
         </ul>
