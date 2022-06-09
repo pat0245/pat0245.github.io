@@ -20,14 +20,27 @@ export default function Blog() {
           <a>
             <Box
               color="lightblue"
-              title="My first blog"
-              body="The first blog where I tell you more about me"
+              title="My first blog (9th June 2022)"
+              body="Some decision I recently made"
             />
           </a>
         </Link>
-        <Link href="#">
+        <Link href="/inspiration">
           <a>
-            <Box color="lightblue" title="test2" body="test2" />
+            <Box
+              color="lightblue"
+              title="Inspiration"
+              body="The people who inspired me"
+            />
+          </a>
+        </Link>
+        <Link href="/gym">
+          <a>
+            <Box
+              color="lightblue"
+              title="Gym"
+              body="My Gym story"
+            />
           </a>
         </Link>
       </Container>
