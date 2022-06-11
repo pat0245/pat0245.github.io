@@ -29,7 +29,7 @@ export default function Home() {
           <h1 className="font-bold text-xl">Blog</h1>
           <p>in this blog I will tell you something about my life and stuff.</p>
           <div className="">
-            <Link href="#">
+            <Link href="/myFirstBlog">
               <a className="m-2">
                 <Box 
                   color="antiquewhite"
