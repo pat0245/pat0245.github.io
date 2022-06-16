@@ -18,15 +18,15 @@ export default function Home() {
 
         <Container className="mt-20 mx-4">
           <h1 className="font-bold text-xl">Hello</h1>
-          <p className="text-l">and welcome to my website!!</p>
-          <ul className="list-disc mx-4 rotate-scale origin-left">
+          <p className="text-l mt-2">and welcome to my website!!</p>
+          <ul className="list-disc mx-4 rotate-scale origin-left mt-2">
             <li>
               <Link href="/about">
                 <a className="underline text-blue-900">more about me</a>
               </Link>
             </li>
           </ul>
-          <h1 className="font-bold text-xl">Blog</h1>
+          <h1 className="font-bold text-xl mt-4">Blog</h1>
           <p>in this blog I will tell you something about my life and stuff.</p>
           <div className="">
             <Link href="/myFirstBlog">
@@ -40,7 +40,7 @@ export default function Home() {
             </Link>
           </div>
           <h1 className="font-bold text-xl">Special Thanks!</h1>
-          <p>
+          <p className="mt-2">
             to the person who thought me how to programm and inspired this
             website:
           </p>
