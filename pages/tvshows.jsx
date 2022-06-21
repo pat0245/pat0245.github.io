@@ -17,6 +17,10 @@ export default function tvshows() {
       <Navigation />
       <Container className="p-24">
         <h1 className="font-bold text-2xl">Tv shows</h1>
+        <p className="font-serif text-lg pt-5">Shows I&apos;m currently watching</p>
+        <ul className="pb-3">
+          <li className="list-disc">The Boys</li>
+        </ul>
         <p className="font-serif text-lg">Shows I&apos;ve watched</p>
         <ul className="pb-6">
           <li className="list-disc">

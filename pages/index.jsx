@@ -34,14 +34,14 @@ export default function Home() {
                 <Box 
                   color="antiquewhite"
                   title="More about me"
-                  body="My first blog where I tell you something about me"
+                  body="My first blog where I tell you more about me"
                 />
               </a>
             </Link>
           </div>
           <h1 className="font-bold text-xl">Special Thanks!</h1>
           <p className="mt-2">
-            to the person who thought me how to programm and inspired this
+            to the person who thought me how to programm and helped with this
             website:
           </p>
           <Link href="https://valwal.com">
