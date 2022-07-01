@@ -18,8 +18,7 @@ export default function Inspiration() {
         <h2 className="font-serif">(9th June 2022)</h2>
         <p className="mt-2 mb-2">
           There are many people who inspired me in different sections of my
-          life. And in this blog I&apos;ll talk a lot about the problems I had and still have.
-          Adn today I want to talk about the people who had the greatest
+          life. And in this blog I&apos;ll talk a lot about the problems I had and still have and today I want to talk about the people who had the greatest
           impact.
         </p>
         <Link href="https://valwal.com">
@@ -28,12 +27,12 @@ export default function Inspiration() {
         <p>One of my dearest friends. I know him since kindergarten and we&apos;ve always been together.
         In school and in private. I never were the most social person. Rather one who avoid people. In the 5th and 6th
         grade he was even one of the 2 friends I had. And I still appreciate that he never abandoned me. I were an awful person
-        at that time and he is still there. And I&apos;m very thankful that he was always there for me... If you somehow read this: Vielem Dank Vale! 
+        at that time and he is still there. And I&apos;m very thankful that he was always there for me... If you somehow read this: Vielen Dank Vale! 
         </p>
         <p>He was also the one who helped me with programming and webdeveloping.</p>
         <h2 className="text-xl mt-2">Denis Gabriel Costan</h2>
         <p>Unfortunatly he has no website, so I cannot link him. 
-            He is one of my &quot;newer&quot; friends. But still one of my dearst friends. In 8th grade he was my neighbour in school. I still wasn&apos;t the most social person and felt uncomfortable speaking to 
+            He is one of my &quot;newer&quot; friends. But still one of my dearest friends. In 8th grade he was my neighbour in school. I still wasn&apos;t the most social person and felt uncomfortable speaking to 
             other people except my friends. 8th grade was also the first class without my elemntary school friends. 
             Due to one leaving the school and the other going in the other &quot;course&quot;. We also had our complications at the beginning and i still werer a awful person at that time.
             Anger issues, annoying people for fun. But we still managed to become friends. He showed me the fun side of the life.
