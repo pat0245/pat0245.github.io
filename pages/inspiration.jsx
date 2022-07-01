@@ -31,7 +31,7 @@ export default function Inspiration() {
         </p>
         <p>He was also the one who helped me with programming and webdeveloping.</p>
         <h2 className="text-xl mt-2">Denis Gabriel Costan</h2>
-        <p>Unfortunatly he has no website, so I cannot link him. 
+        <p>Unfortunately he has no website, so I cannot link him. 
             He is one of my &quot;newer&quot; friends. But still one of my dearest friends. In 8th grade he was my neighbour in school. I still wasn&apos;t the most social person and felt uncomfortable speaking to 
             other people except my friends. 8th grade was also the first class without my elemntary school friends. 
             Due to one leaving the school and the other going in the other &quot;course&quot;. We also had our complications at the beginning and i still werer a awful person at that time.
