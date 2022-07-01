@@ -338,7 +338,7 @@ export default function Routine() {
                 <div className="slot" data-type="block"></div>
                 <p className="secondary">
                   &rarr; generic work slot/ Spending time with friends
-                  (espeacially on weekends)
+                  (especially on weekends)
                 </p>
               </li>
             </ul>
