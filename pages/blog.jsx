@@ -43,7 +43,7 @@ export default function Blog() {
           <a>
             <Box
               color="lightblue"
-              title="The Human"
+              title="Human"
               body="My talk about the human"
             />
           </a>
