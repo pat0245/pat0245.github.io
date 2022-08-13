@@ -30,16 +30,21 @@ export default function Blog() {
             <Box
               color="lightblue"
               title="Inspiration"
-              body="The people who inspired me"
+              body="People who inspired me"
             />
           </a>
         </Link>
         <Link href="/gym">
           <a>
+            <Box color="lightblue" title="Gym" body="My Gym story" />
+          </a>
+        </Link>
+        <Link href="/human">
+          <a>
             <Box
               color="lightblue"
-              title="Gym"
-              body="My Gym story"
+              title="The Human"
+              body="My talk about the human"
             />
           </a>
         </Link>
