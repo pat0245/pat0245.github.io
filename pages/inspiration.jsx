@@ -87,22 +87,6 @@ export default function Inspiration() {
           is defining who you are. I might have drifted apart from what I wanted
           to say but remember: You are the only one who can define who you are.
         </p>
-        <h2 className="text-xl mt-2">Andrew & Tristan Tate</h2>
-        <p>
-          The Tate-Brothers you either like or dislike them. And infact they are
-          saying much crap... but on the other hand there are many truths and
-          facts. Lets take Andrews example with the rich man. If you see someone
-          with a really expensive car at a gas station, do you think that they
-          went to college and studied something? No, this is mostly the last
-          thing you would think. Rich dad or something illegal/ uncommon would
-          be your first thought. And it is true. If you want to have lots of
-          money, getting a 9-5 job is one of the worst things to do. Yeah if you
-          invest the money you have lots of it when you are old... but one
-          question, would you rather drive your expensive car at 65 or at 25?
-          Another thing is if you work a 9-5 job you won&apos;t have much time
-          for your family. I personally want to watch my kids grow up and spend
-          lots of time with them and my future wife.
-        </p>
       </Container>
     </>
   );
