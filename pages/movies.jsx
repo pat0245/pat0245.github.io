@@ -24,9 +24,14 @@ export default function movies() {
         <ul className="pb-6 pt-5">
           <li className="list-disc">Ready Player One</li>
           <li className="list-disc">Starwars: Revenge of the Sith</li>
-          <li className="list-disc">The Amazing Spider-Man</li>
+          <li className="list-disc">The Dark Knight Trilogy</li>
         </ul>
         <ul className="pb-6 pt-4">
+          <li className="list-disk">The Amazing Spiderman</li>
+          <li className="list-disk">The Amazing Spiderman 2</li>
+          <li className="list-disk">The Batman</li>
+          <li className="list-disk">Zack Synder&apos;s Justice League</li>
+          <li className="list-disk">American Psycho</li>
           <li className="list-disc">Avengers: Endgame</li>
           <li className="list-disc">Avengers: Infinity War</li>
           <li className="list-disc">The Avengers</li>
