@@ -43,37 +43,6 @@ export default function Inspiration() {
           But if you are able to inspire yourself you will be the person who
           always wanted to be.
         </p>
-        <h2 className="text-xl pt-2 pb-2 font-bold">Love (8th August 2022)</h2>
-        <p>
-          One of the most complicated feelings is love. Many animals
-          &quot;use&quot; any partner to &quot;reproduce&quot; their kind. We
-          humans on the other hand used to search for our partner, which whom we
-          want to spend our whole life and with whom we wanted to
-          &quot;make&quot; our descendants. I used the term &quot;used to
-          search&quot; on purpose beacause these kind of releationships are very
-          rare nowadays. We used to find our &quot;better half&quot; and even
-          when they fought. They always found a way to fix the releationships. I
-          am not an expert in this territory, since I weren&apos;t in a love
-          releationship yet. But to me it seems that many couples aren&apos;t
-          fighting for their releationship. I don&apos;t want to bad talk some
-          couples. There are still some exceptions. But sadly those are very
-          rare. Now lets talk about love in general. It is very difficult to
-          describe. And every human is feeling it in a different way. For me it
-          is mostly a feeling in the stomache. Many people know it as butterflys
-          in one&apos;s stomache. At the same time it is a horrible and a good
-          feeling. But these &quot;butterflys&quot; are getting less with the
-          time you spend with the this &quot;special&quot; person. Love has it
-          good and bad sides. It is able to grant you more motivation and
-          strength. But most importantly it is able to get you happines and
-          comfort. On the other hand we have a state after one has lost their
-          love. &quot;Heartbroken&quot;. The intensity of this feeling can
-          differ. But I would that emptyness is a good way to describe it.
-          People are dealing with this differently and there is no generall cure
-          for it... Love is very dangerous. It is able to change humans and
-          force to do bad stuff. But on the other hand it is beautiful. It can
-          change humans in the positive way and let them do things, which were
-          impossible for them before.
-        </p>
       </Container>
     </>
   );
