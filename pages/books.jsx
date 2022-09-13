@@ -27,6 +27,7 @@ export default function books() {
         </Link>
         <p className="font-serif text-sm">Currently reading:</p>
         <ul className="pb-3 pt-2">
+          <li className="list-disc">The Laws of Human Nature - Robert Greene</li>
           <li className="list-disc">Ready Player One</li>
         </ul>
         <p className="font-serif text-sm">Done reading</p>
@@ -36,6 +37,9 @@ export default function books() {
         <p className="font-serif text-sm">On my &quot;want to read list&quot;</p>
         <ul className="pb-6 pt-2">
           <li className="list-disc">The Witcher</li>
+          <li className="list-disc">Read People like A book - Patrick King</li>
+          <li className="list-disc">The Art Of War - Sun Tzu</li>
+          <li className="list-disc">Debt: The First 5000 Years - Graeber David</li>
         </ul>
         <PageSwitch left="Movies" right="TV" color="MediumSlateBlue" />
       </Container>
