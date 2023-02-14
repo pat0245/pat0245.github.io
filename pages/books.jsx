@@ -29,6 +29,7 @@ export default function books() {
         <ul className="pb-3 pt-2">
           <li className="list-disc">The Laws of Human Nature - Robert Greene</li>
           <li className="list-disc">Ready Player One</li>
+          <li className="list-disc">Atomic Habits</li>
         </ul>
         <p className="font-serif text-sm">Done reading</p>
         <ul className="pb-3 pt-2">

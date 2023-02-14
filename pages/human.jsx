@@ -43,6 +43,23 @@ export default function Inspiration() {
           But if you are able to inspire yourself you will be the person who
           always wanted to be.
         </p>
+        <h2 className="text-xl pt-2 pb-2 font-bold">
+          Love(14th February 2023)
+        </h2>
+        <p>
+          At the same time love is on of the most cruel and beautiful things a
+          human can experience. It has different stages. One day it can be the
+          best thing in your life the other day it can be the most painful
+          thing. Just like a Drug it is very intoxicating and dangerous at the
+          same time. Through love you can put people in a position in which they
+          can hurt you in one of the most painful ways, not physically but
+          mentally. A pain which is different for anybody, but one thing it is
+          constant and it slowly gets worse with the time. It won&apos;t get
+          away, you will simply adapt and learn to live with it. Nonetheles, i
+          would even say, it was the best time I had and I would give everything
+          to experience it once again. But sometimes you have to let the people
+          go who you love...
+        </p>
       </Container>
     </>
   );
